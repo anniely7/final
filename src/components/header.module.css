@@ -3,8 +3,28 @@
     text-decoration: none;
     font-weight: 400;
     letter-spacing: 3px;
+    margin-right: 0.9rem;
 }
 
 .link:hover {
-    color:rgb(80, 79, 80);
+    color:rgb(180, 248, 248);
 }
+
+.headerimage{
+    background: url("../images/dallas.jpeg") no-repeat top left / cover;
+    position: relative;
+    text-align: center;
+    text-decoration:none;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:white;
+  text-align: center;
+}
+
+h3 {
+    text-shadow: 2px 2px 4px #000000;}
